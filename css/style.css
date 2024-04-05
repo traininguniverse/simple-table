@@ -1,0 +1,22 @@
+body{ /* tło strony */
+    background-color: rgb(79, 173, 76);
+}
+.header{ /*kolor tekstu*/
+    color: darkblue;
+}
+.wrapper{ /* najczęściej stosowana metoda wyśrodkowania elemntu
+            wrapper musi być rozciągnięty na całą szerokość i wysokość okna */    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, tr, td { /* utworzenie obramowania */
+    border: 1px solid black;
+}
+th, td{ /* utworzenie odpowiedniego odstępu od obramowania i wycentrowania zawartości*/
+    padding: 20px;
+    text-align: center;
+}
